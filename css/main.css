@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  padding: 0; }
+  *::after, *::before {
+    box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  min-block-size: 100vh;
+  background-image: linear-gradient(to right bottom, var(--primary), var(--primary-dark));
+  font-family: 'Open sans';
+  font-weight: 400;
+  line-height: 1.4; }
+
 /*
 COLORS
 
@@ -25,19 +42,3 @@ Grey dark 3: #999
   --grey-dark-1: #333;
   --grey-dark-2: #777;
   --drey-dark-3: #999; }
-
-* {
-  margin: 0;
-  padding: 0; }
-  *::after, *::before {
-    box-sizing: inherit; }
-
-html {
-  box-sizing: border-box; }
-
-body {
-  min-block-size: 100vh;
-  background-image: linear-gradient(to right bottom, var(--primary), var(--primary-dark));
-  font-family: 'Open sans';
-  font-size: 62.5%;
-  line-height: 1.4; }
