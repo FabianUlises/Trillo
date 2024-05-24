@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "devserver": "live-server",
-    "watch:sass": "node-sass scss/styles.scss css/main.css -w",
+    "watch:sass": "node-sass scss/main.scss css/main.css -w",
     "start": "npm-run-all --parallel devserver watch:sass"
   },
   "keywords": [],
