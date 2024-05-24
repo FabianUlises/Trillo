@@ -60,3 +60,12 @@ Base-font: 1.6rem -> 16px
   block-size: 7rem;
   background-color: #fff;
   border-block-end: var(--grey-light-2); }
+
+.content {
+  display: flex; }
+
+.sidebar {
+  background-color: var(--grey-dark-1); }
+
+.hotel-page {
+  background-color: orangered; }

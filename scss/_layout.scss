@@ -10,3 +10,12 @@
     background-color: #fff;
     border-block-end: var(--grey-light-2);
 }
+.content {
+    display: flex;
+}
+.sidebar {
+    background-color: var(--grey-dark-1);
+}
+.hotel-page {
+    background-color: orangered;
+}
