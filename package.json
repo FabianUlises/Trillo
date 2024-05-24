@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devserver": "live-server",
+    "watch:sass": "node-sass scss/styles.scss css/main.css -w",
+    "start": "npm-run-all --parallel devserver watch:sass"
   },
   "keywords": [],
   "author": "",
