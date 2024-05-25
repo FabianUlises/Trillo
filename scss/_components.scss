@@ -1,7 +1,11 @@
 .logo {
     block-size: 3.25rem;
+    margin-inline-start: 3rem;
 }
 .search {
+    flex: 0 0 40%;
+    background-color: red;
+
     &__icon {
         block-size: 2rem;
         inline-size: 2rem;

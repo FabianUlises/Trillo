@@ -76,11 +76,15 @@ Base-font: 1.6rem -> 16px
   flex-grow: 1; }
 
 .logo {
-  block-size: 3.25rem; }
+  block-size: 3.25rem;
+  margin-inline-start: 3rem; }
 
-.search__icon {
-  block-size: 2rem;
-  inline-size: 2rem; }
+.search {
+  flex: 0 0 40%;
+  background-color: red; }
+  .search__icon {
+    block-size: 2rem;
+    inline-size: 2rem; }
 
 .user-nav__icon {
   block-size: 2.25rem;
