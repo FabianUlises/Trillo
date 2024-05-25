@@ -58,9 +58,19 @@
 }
 .user-nav {
     display: flex;
-    gap: 2rem;
     justify-content: center;
     align-items: center;
+    align-self: stretch;
+
+    & > * {
+        block-size: 100%;
+        background-color: orange;
+        padding: 0 2rem;
+    }
+
+    & > *:hover {
+        background-color: var(--grey-light-2);
+    }
 
     &__icon {
         block-size: 2.25rem;
