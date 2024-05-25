@@ -78,3 +78,7 @@ Base-font: 1.6rem -> 16px
 .search__icon {
   block-size: 2rem;
   inline-size: 2rem; }
+
+.user-nav__icon {
+  block-size: 2.25rem;
+  inline-size: 2.25rem; }
