@@ -99,6 +99,9 @@ Base-font: 1.6rem -> 16px
       inline-size: 100%;
       background-color: var(--grey-light-3);
       outline: none; }
+    .search__input::-webkit-input-placeholder {
+      color: var(--grey-light-4);
+      font-weight: 100; }
   .search__input:focus + .search__button {
     background-color: var(--grey-light-3); }
   .search__button {
