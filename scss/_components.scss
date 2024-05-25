@@ -57,6 +57,11 @@
     }
 }
 .user-nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
     &__icon {
         block-size: 2.25rem;
         inline-size: 2.25rem;
@@ -66,5 +71,11 @@
         block-size: 3.75rem;
         border-radius: 50%;
         background-color: var(--primary);
+    }
+
+    &__user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
