@@ -9,6 +9,9 @@
     block-size: 7rem;
     background-color: #fff;
     border-block-end: var(--grey-light-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .content {
     display: flex;
