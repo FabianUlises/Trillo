@@ -74,3 +74,7 @@ Base-font: 1.6rem -> 16px
 
 .logo {
   block-size: 3.25rem; }
+
+.search__icon {
+  block-size: 2rem;
+  inline-size: 2rem; }
