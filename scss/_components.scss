@@ -4,6 +4,9 @@
 }
 .search {
     flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
 
     &__input {
         inline-size: 85%;
@@ -15,17 +18,23 @@
         padding: .7rem 2rem;
         border-radius: 100px;
         transition: all .2s;
+        margin-inline-end: -3.25rem;
 
         &:focus {
             inline-size: 100%;
-            background-color: var(--grey-light-2);
+            background-color: var(--grey-light-3);
             outline: none;
         }
+    }
+
+    &__input:focus + &__button {
+        background-color: var(--grey-light-3);
     }
 
     &__button {
         background-color: var(--grey-light-2);
         border: none;
+        margin-block-start: .2rem;;
 
         &:focus {
             outline: none;
@@ -39,6 +48,7 @@
     &__icon {
         block-size: 2rem;
         inline-size: 2rem;
+        fill: var(--primary);
     }
 }
 .user-nav {
