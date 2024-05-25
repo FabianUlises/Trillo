@@ -82,3 +82,8 @@ Base-font: 1.6rem -> 16px
 .user-nav__icon {
   block-size: 2.25rem;
   inline-size: 2.25rem; }
+
+.user-nav__user-photo {
+  block-size: 3.75rem;
+  border-radius: 50%;
+  background-color: var(--primary); }
