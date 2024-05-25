@@ -23,6 +23,19 @@
         }
     }
 
+    &__button {
+        background-color: var(--grey-light-2);
+        border: none;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:active {
+            transform: translateY(2px);
+        }
+    }
+
     &__icon {
         block-size: 2rem;
         inline-size: 2rem;
