@@ -71,3 +71,6 @@ Base-font: 1.6rem -> 16px
 .hotel-page {
   background-color: orangered;
   flex-grow: 1; }
+
+.logo {
+  block-size: 3.25rem; }
