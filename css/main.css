@@ -122,10 +122,13 @@ Base-font: 1.6rem -> 16px
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: stretch; }
+  align-self: stretch;
+  cursor: pointer; }
   .user-nav > * {
     block-size: 100%;
-    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0 2rem; }
   .user-nav > *:hover {
     background-color: var(--grey-light-2); }
