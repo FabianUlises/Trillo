@@ -4,7 +4,24 @@
 }
 .search {
     flex: 0 0 40%;
-    background-color: red;
+
+    &__input {
+        inline-size: 85%;
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        background-color: var(--grey-light-2);
+        border: none;
+        padding: .7rem 2rem;
+        border-radius: 100px;
+        transition: all .2s;
+
+        &:focus {
+            inline-size: 100%;
+            background-color: var(--grey-light-2);
+            outline: none;
+        }
+    }
 
     &__icon {
         block-size: 2rem;
