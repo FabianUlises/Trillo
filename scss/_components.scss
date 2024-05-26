@@ -1,6 +1,6 @@
 .logo {
     block-size: 3.25rem;
-    margin-inline-start: 3rem;
+    margin-inline-start: 2rem;
 }
 .search {
     flex: 0 0 40%;
@@ -104,6 +104,7 @@
         block-size: 3.75rem;
         border-radius: 50%;
         background-color: var(--primary);
+        margin-inline-end: 1rem;
     }
 
     &__user {
