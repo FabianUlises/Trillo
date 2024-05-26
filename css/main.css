@@ -199,7 +199,9 @@ Base-font: 1.6rem -> 16px
     text-transform: uppercase;
     padding: 1.5rem 3rem;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    position: relative;
+    z-index: 10; }
   .side-nav__icon {
     inline-size: 1.75rem;
     block-size: 1.75rem;
