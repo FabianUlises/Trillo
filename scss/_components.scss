@@ -113,3 +113,9 @@
         align-items: center;
     }
 }
+.side-nav {
+    &__icon {
+        inline-size: 1.75rem;
+        block-size: 1.75rem;
+    }
+}
