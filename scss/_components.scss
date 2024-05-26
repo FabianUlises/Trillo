@@ -114,10 +114,6 @@
     }
 }
 .sidebar {
-    flex: 0 0 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
     &__copyright {
         color: var(--grey-light-4);

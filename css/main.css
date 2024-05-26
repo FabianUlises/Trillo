@@ -70,7 +70,10 @@ Base-font: 1.6rem -> 16px
 
 .sidebar {
   background-color: var(--grey-dark-1);
-  flex: 0 0 18%; }
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .hotel-page {
   block-size: 80rem;
@@ -163,16 +166,11 @@ Base-font: 1.6rem -> 16px
     justify-content: center;
     align-items: center; }
 
-.sidebar {
-  flex: 0 0 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
-  .sidebar__copyright {
-    color: var(--grey-light-4);
-    font-size: 1.2rem;
-    text-align: center;
-    padding: 2.5rem; }
+.sidebar__copyright {
+  color: var(--grey-light-4);
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.5rem; }
 
 .side-nav {
   font-size: 1.4rem;
