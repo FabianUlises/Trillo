@@ -187,4 +187,6 @@ Base-font: 1.6rem -> 16px
     align-items: center; }
   .side-nav__icon {
     inline-size: 1.75rem;
-    block-size: 1.75rem; }
+    block-size: 1.75rem;
+    margin-inline-end: 2rem;
+    fill: currentColor; }
