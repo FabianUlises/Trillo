@@ -134,7 +134,23 @@ Base-font: 1.6rem -> 16px
     background-color: var(--grey-light-2); }
   .user-nav__icon {
     block-size: 2.25rem;
-    inline-size: 2.25rem; }
+    inline-size: 2.25rem;
+    fill: var(--grey-dark-2); }
+  .user-nav__icon-box {
+    position: relative; }
+  .user-nav__notification {
+    block-size: 1.75rem;
+    inline-size: 1.75rem;
+    background-color: var(--primary);
+    color: #fff;
+    font-size: .8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .user-nav__user-photo {
     block-size: 3.75rem;
     border-radius: 50%;
