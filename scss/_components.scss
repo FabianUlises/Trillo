@@ -127,6 +127,21 @@
     }
 }
 .side-nav {
+    font-size: 1.4rem;
+    list-style: none;
+    margin-block-start: 3.5rem;
+
+    &__link:link,
+    &__link:visited {
+        color: var(--grey-light-1);
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1.5rem 3rem;
+        display: flex;
+        align-items: center;
+
+    }
+
     &__icon {
         inline-size: 1.75rem;
         block-size: 1.75rem;
