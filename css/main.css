@@ -38,7 +38,7 @@ Base-font: 1.6rem -> 16px
 */
 :root {
   --primary: #eb2f64;
-  --primary-light: #ff3366;
+  --primary-light: #ff245b;
   --primary-dark: #ba265d;
   --grey-light-1: #faf9f9;
   --grey-light-2: #f4f2f2;
@@ -180,7 +180,7 @@ Base-font: 1.6rem -> 16px
     position: relative; }
     .side-nav__item:not(:last-child) {
       margin-block-end: .5rem; }
-    .side-nav__item:hover::before, .side-nav__item--active::before {
+    .side-nav__item:hover::before {
       inline-size: 100%;
       transform: scaleY(1); }
     .side-nav__item:active::before {
@@ -195,6 +195,10 @@ Base-font: 1.6rem -> 16px
       left: 0;
       transform: scaleY(0);
       transition: transform 250ms, width 300ms 250ms; }
+  .side-nav__item--active::before {
+    inline-size: 100%;
+    transform: scaleY(1);
+    background-color: var(--primary-light); }
   .side-nav__link:link, .side-nav__link:visited {
     color: var(--grey-light-1);
     text-decoration: none;

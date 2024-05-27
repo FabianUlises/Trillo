@@ -134,8 +134,7 @@
             margin-block-end: .5rem;
         }
         
-        &:hover::before,
-        &--active::before {
+        &:hover::before {
             inline-size: 100%;
             transform: scaleY(1);
         }
@@ -143,7 +142,7 @@
         &:active::before {
             background-color: var(--primary-light);
         }
-
+        
         &::before {
             inline-size: 3px;
             block-size: 100%;
@@ -155,6 +154,12 @@
             transform: scaleY(0);
             transition: transform 250ms, width 300ms 250ms;
         }
+    }
+
+    &__item--active::before {
+        inline-size: 100%;
+        transform: scaleY(1);
+        background-color: var(--primary-light);
     }
 
     &__link:link,
