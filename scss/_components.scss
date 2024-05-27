@@ -134,9 +134,14 @@
             margin-block-end: .5rem;
         }
         
-        &:hover::before {
+        &:hover::before,
+        &--active::before {
             inline-size: 100%;
             transform: scaleY(1);
+        }
+        
+        &:active::before {
+            background-color: var(--primary-light);
         }
 
         &::before {

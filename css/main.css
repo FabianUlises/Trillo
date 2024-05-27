@@ -180,9 +180,11 @@ Base-font: 1.6rem -> 16px
     position: relative; }
     .side-nav__item:not(:last-child) {
       margin-block-end: .5rem; }
-    .side-nav__item:hover::before {
+    .side-nav__item:hover::before, .side-nav__item--active::before {
       inline-size: 100%;
       transform: scaleY(1); }
+    .side-nav__item:active::before {
+      background-color: var(--primary-light); }
     .side-nav__item::before {
       inline-size: 3px;
       block-size: 100%;
