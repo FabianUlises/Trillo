@@ -189,3 +189,12 @@
         display: block;
     }
 }
+.overview {
+    display: flex;
+
+    &__icon-star,
+    &__icon-location {
+        inline-size: 1.75rem;
+        block-size: 1.75rem;
+    }
+}

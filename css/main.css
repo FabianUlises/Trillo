@@ -219,3 +219,9 @@ Base-font: 1.6rem -> 16px
   .gallery__img {
     inline-size: 100%;
     display: block; }
+
+.overview {
+  display: flex; }
+  .overview__icon-star, .overview__icon-location {
+    inline-size: 1.75rem;
+    block-size: 1.75rem; }
