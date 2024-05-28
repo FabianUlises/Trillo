@@ -265,7 +265,9 @@ Base-font: 1.6rem -> 16px
   .overview__rating {
     background-color: var(--primary);
     color: #fff;
-    margin-inline-start: 3rem; }
+    margin-inline-start: 3rem;
+    align-self: stretch;
+    padding: 2.25rem; }
     .overview__rating-average {
       font-size: 2.25rem;
       font-weight: 300; }
