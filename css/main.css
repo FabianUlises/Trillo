@@ -221,12 +221,18 @@ Base-font: 1.6rem -> 16px
     display: block; }
 
 .overview {
-  background-color: forestgreen;
   display: flex;
   align-items: center;
   border-block-end: 1px solid var(--grey-light-2); }
   .overview__icon-star, .overview__icon-location {
+    fill: var(--primary);
     inline-size: 1.75rem;
     block-size: 1.75rem; }
+  .overview__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem; }
   .overview__stars {
     margin-inline-end: auto; }
