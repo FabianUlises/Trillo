@@ -26,6 +26,7 @@
 
     &:hover {
         color: var(--grey-dark-1);
+        animation: pulsate 750ms infinite;
     }
 
     &:focus {

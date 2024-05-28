@@ -79,9 +79,31 @@ Base-font: 1.6rem -> 16px
   block-size: 80rem;
   flex-grow: 1; }
 
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: none; }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25); }
+  100% {
+    transform: scale(1);
+    box-shadow: none; } }
+
 .logo {
   block-size: 3.25rem;
   margin-inline-start: 2rem; }
+
+.btn-inline {
+  color: var(--primary);
+  font-size: inherit;
+  border: none;
+  border-bottom: 1px solid currentColor; }
+  .btn-inline:hover {
+    color: var(--grey-dark-1);
+    animation: pulsate 750ms infinite; }
+  .btn-inline:focus {
+    outline: none; }
 
 .search {
   flex: 0 0 40%;
