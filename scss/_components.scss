@@ -19,10 +19,14 @@
 }
 // BUTTONS
 .btn-inline {
+    background-color: transparent;
     color: var(--primary);
     font-size: inherit;
+    display: inline-block;
     border: none;
     border-bottom: 1px solid currentColor;
+    cursor: pointer;
+    transition: all 250ms;
 
     &:hover {
         color: var(--grey-dark-1);

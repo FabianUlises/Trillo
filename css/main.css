@@ -95,10 +95,14 @@ Base-font: 1.6rem -> 16px
   margin-inline-start: 2rem; }
 
 .btn-inline {
+  background-color: transparent;
   color: var(--primary);
   font-size: inherit;
+  display: inline-block;
   border: none;
-  border-bottom: 1px solid currentColor; }
+  border-bottom: 1px solid currentColor;
+  cursor: pointer;
+  transition: all 250ms; }
   .btn-inline:hover {
     color: var(--grey-dark-1);
     animation: pulsate 750ms infinite; }
