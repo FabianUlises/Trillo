@@ -13,6 +13,10 @@
         color: var(--grey-dark-1);
     }
 
+    &:focus {
+        outline: none;
+    }
+
 }
 .search {
     flex: 0 0 40%;
