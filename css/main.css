@@ -252,6 +252,8 @@ Base-font: 1.6rem -> 16px
     fill: var(--primary);
     inline-size: 1.75rem;
     block-size: 1.75rem; }
+  .overview__icon-location {
+    margin-inline-end: .5rem; }
   .overview__heading {
     font-size: 2.25rem;
     font-weight: 300;
@@ -260,3 +262,7 @@ Base-font: 1.6rem -> 16px
     padding: 1.5rem 3rem; }
   .overview__stars {
     margin-inline-end: auto; }
+  .overview__location {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center; }

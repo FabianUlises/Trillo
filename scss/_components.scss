@@ -236,6 +236,9 @@
         inline-size: 1.75rem;
         block-size: 1.75rem;
     }
+    &__icon-location {
+        margin-inline-end: .5rem;
+    }
 
     &__heading {
         font-size: 2.25rem;
@@ -247,5 +250,11 @@
 
     &__stars {
         margin-inline-end: auto;
+    }
+
+    &__location {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
     }
 }
