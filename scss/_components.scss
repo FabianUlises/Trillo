@@ -181,3 +181,10 @@
         fill: currentColor;
     }
 }
+.gallery {
+    display: flex;
+
+    &__img {
+        inline-size: 100%;
+    }
+}

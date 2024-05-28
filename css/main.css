@@ -213,3 +213,8 @@ Base-font: 1.6rem -> 16px
     block-size: 1.75rem;
     margin-inline-end: 2rem;
     fill: currentColor; }
+
+.gallery {
+  display: flex; }
+  .gallery__img {
+    inline-size: 100%; }
