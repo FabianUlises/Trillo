@@ -2,6 +2,18 @@
     block-size: 3.25rem;
     margin-inline-start: 2rem;
 }
+// BUTTONS
+.btn-inline {
+    color: var(--primary);
+    font-size: inherit;
+    border: none;
+    border-bottom: 1px solid currentColor;
+
+    &:hover {
+        color: var(--grey-dark-1);
+    }
+
+}
 .search {
     flex: 0 0 40%;
     display: flex;
