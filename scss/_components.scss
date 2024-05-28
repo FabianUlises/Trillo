@@ -190,7 +190,10 @@
     }
 }
 .overview {
+    background-color: forestgreen;
     display: flex;
+    align-items: center;
+    border-block-end: 1px solid var(--grey-light-2);
 
     &__icon-star,
     &__icon-location {
