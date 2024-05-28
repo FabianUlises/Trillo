@@ -225,3 +225,5 @@ Base-font: 1.6rem -> 16px
   .overview__icon-star, .overview__icon-location {
     inline-size: 1.75rem;
     block-size: 1.75rem; }
+  .overview__stars {
+    margin-inline-end: auto; }
