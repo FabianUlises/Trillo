@@ -29,12 +29,17 @@
     flex-grow: 1;
 }
 .detail {
+    background-color: var(--grey-light-1);
+    border-block-end: 1px solid var(--grey-light-2);
     display: flex;
+    padding: 4.5rem;;
 
     .description {
-        background-color: orangered;
+        background-color: #fff;
+        box-shadow: 0 2rem 5rem rgba(0, 0, 0 , .6);
         flex: 0 0 60%;
         margin-inline-end: 4.5rem;
+        padding: 3rem;
     }
 
     .user-reviews {
