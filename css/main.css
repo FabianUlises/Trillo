@@ -81,6 +81,10 @@ Base-font: 1.6rem -> 16px
 
 .detail {
   display: flex; }
+  .detail .description {
+    background-color: orangered;
+    flex: 0 0 60%;
+    margin-inline-end: 4.5rem; }
 
 @keyframes pulsate {
   0% {

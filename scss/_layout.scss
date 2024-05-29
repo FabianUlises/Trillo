@@ -32,7 +32,9 @@
     display: flex;
 
     .description {
-    
+        background-color: orangered;
+        flex: 0 0 60%;
+        margin-inline-end: 4.5rem;
     }
 
     .user-reviews {
