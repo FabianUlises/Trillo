@@ -281,3 +281,10 @@
         align-items: center;
     }
 }
+// DETAILS
+.detail {
+
+    .paragraph:not(:last-of-type) {
+        margin-block-end: 2rem;
+    }
+}
