@@ -301,3 +301,10 @@ Base-font: 1.6rem -> 16px
 
 .detail .paragraph:not(:last-of-type) {
   margin-block-end: 2rem; }
+
+.detail .list {
+  list-style: none;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  border-block-start: 1px solid currentColor;
+  border-block-end: 1px solid currentColor; }
