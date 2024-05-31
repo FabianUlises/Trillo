@@ -329,3 +329,7 @@ Base-font: 1.6rem -> 16px
   color: var(--grey-dark-3);
   font-size: 1.3rem;
   display: flex; }
+  .detail .recommend__photo {
+    block-size: 4rem;
+    inline-size: 4rem;
+    border-radius: 50%; }
