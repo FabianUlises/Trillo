@@ -328,6 +328,8 @@
             block-size: 4rem;
             inline-size: 4rem;
             border-radius:50%;
+            border: 3px solid #fff;
+            box-sizing: content-box;
 
             &:not(:last-child) {
                 margin-inline-end: -1.5rem;
