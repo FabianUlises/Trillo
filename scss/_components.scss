@@ -294,8 +294,12 @@
         padding: 3rem 0;
         border-block-start: 1px solid currentColor;
         border-block-end: 1px solid currentColor;
-
         display: flex;
         flex-wrap: wrap;
+
+        &__item {
+            flex: 0 0 50%;
+            margin-block-end: .7rem;
+        }
     }
 }

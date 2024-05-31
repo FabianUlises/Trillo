@@ -310,3 +310,6 @@ Base-font: 1.6rem -> 16px
   border-block-end: 1px solid currentColor;
   display: flex;
   flex-wrap: wrap; }
+  .detail .list__item {
+    flex: 0 0 50%;
+    margin-block-end: .7rem; }
