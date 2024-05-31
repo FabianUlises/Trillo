@@ -307,4 +307,6 @@ Base-font: 1.6rem -> 16px
   margin: 3rem 0;
   padding: 3rem 0;
   border-block-start: 1px solid currentColor;
-  border-block-end: 1px solid currentColor; }
+  border-block-end: 1px solid currentColor;
+  display: flex;
+  flex-wrap: wrap; }
