@@ -327,7 +327,11 @@
         &__photo {
             block-size: 4rem;
             inline-size: 4rem;
-            border-radius: 50%;
+            border-radius:50%;
+
+            &:not(:last-child) {
+                margin-inline-end: -1.5rem;
+            }
         }
     }
 }

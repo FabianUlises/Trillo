@@ -333,3 +333,5 @@ Base-font: 1.6rem -> 16px
     block-size: 4rem;
     inline-size: 4rem;
     border-radius: 50%; }
+    .detail .recommend__photo:not(:last-child) {
+      margin-inline-end: -1.5rem; }
