@@ -323,6 +323,7 @@
         color: var(--grey-dark-3);
         font-size: 1.3rem;
         display: flex;
+        align-items: center;
 
         &__photo {
             block-size: 4rem;
@@ -334,6 +335,10 @@
             &:not(:last-child) {
                 margin-inline-end: -1.5rem;
             }
+        }
+
+        &__count {
+            margin-inline-end: auto;
         }
     }
 }

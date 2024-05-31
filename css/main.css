@@ -328,7 +328,8 @@ Base-font: 1.6rem -> 16px
 .detail .recommend {
   color: var(--grey-dark-3);
   font-size: 1.3rem;
-  display: flex; }
+  display: flex;
+  align-items: center; }
   .detail .recommend__photo {
     block-size: 4rem;
     inline-size: 4rem;
@@ -337,3 +338,5 @@ Base-font: 1.6rem -> 16px
     box-sizing: content-box; }
     .detail .recommend__photo:not(:last-child) {
       margin-inline-end: -1.5rem; }
+  .detail .recommend__count {
+    margin-inline-end: auto; }
