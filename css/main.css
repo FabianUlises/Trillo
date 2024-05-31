@@ -324,3 +324,8 @@ Base-font: 1.6rem -> 16px
       -webkit-mask-size: cover;
       mask-image: url(../img/chevron-thin-right.svg);
       mask-size: cover; }
+
+.detail .recommend {
+  color: var(--grey-dark-3);
+  font-size: 1.3rem;
+  display: flex; }
