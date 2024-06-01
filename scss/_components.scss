@@ -349,6 +349,7 @@
         padding: 3rem;
         margin-block-end: 3.5rem;
         position: relative;
+        overflow: hidden;
 
         &::before {
             content: "\201c";
