@@ -349,3 +349,13 @@ Base-font: 1.6rem -> 16px
     block-size: 4.5rem;
     inline-size: 4.5rem;
     border-radius: 50%; }
+  .detail .review__user {
+    display: flex;
+    align-items: center; }
+  .detail .review__user-box {
+    margin-inline-end: auto; }
+  .detail .review__user-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-block-end: .4rem; }

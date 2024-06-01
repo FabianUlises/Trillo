@@ -354,5 +354,21 @@
             inline-size: 4.5rem;
             border-radius: 50%;
         }
+
+        &__user {
+            display: flex;
+            align-items: center;
+        }
+
+        &__user-box {
+            margin-inline-end: auto;
+        }
+
+        &__user-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-block-end: .4rem;
+        }
     }
 }
