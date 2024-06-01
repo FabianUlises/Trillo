@@ -348,5 +348,11 @@
         box-shadow: var(--grey-light-1);
         padding: 3rem;
         margin-block-end: 3.5rem;
+
+        &__photo {
+            block-size: 4.5rem;
+            inline-size: 4.5rem;
+            border-radius: 50%;
+        }
     }
 }
