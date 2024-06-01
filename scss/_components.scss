@@ -348,9 +348,24 @@
         box-shadow: var(--grey-light-1);
         padding: 3rem;
         margin-block-end: 3.5rem;
+        position: relative;
+
+        &::before {
+            content: "\201c";
+            color: var(--grey-light-2);
+            font-size: 20rem;
+            font-family: sans-serif;
+            line-height: 1;
+            position: absolute;
+            top: -1rem;
+            left: -1rem;
+            z-index: 2;
+        }
 
         &__text {
             margin-block-end: 2rem;
+            z-index: 10;
+            position: relative;
         }
 
         &__photo {
