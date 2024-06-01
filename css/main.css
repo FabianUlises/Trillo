@@ -166,27 +166,27 @@ Base-font: 1.6rem -> 16px
     inline-size: 2rem;
     fill: var(--primary); }
 
-.nav {
+.user-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: stretch;
   cursor: pointer; }
-  .nav > * {
+  .user-nav > * {
     block-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 2rem; }
-  .nav > *:hover {
+  .user-nav > *:hover {
     background-color: var(--grey-light-2); }
-  .nav__icon {
+  .user-nav__icon {
     block-size: 2.25rem;
     inline-size: 2.25rem;
     fill: var(--grey-dark-2); }
-  .nav__icon-box {
+  .user-nav__icon-box {
     position: relative; }
-  .nav__notification {
+  .user-nav__notification {
     block-size: 1.75rem;
     inline-size: 1.75rem;
     background-color: var(--primary);
@@ -199,12 +199,12 @@ Base-font: 1.6rem -> 16px
     display: flex;
     justify-content: center;
     align-items: center; }
-  .nav__user-photo {
+  .user-nav__user-photo {
     block-size: 3.75rem;
     border-radius: 50%;
     background-color: var(--primary);
     margin-inline-end: 1rem; }
-  .nav__user {
+  .user-nav__user {
     display: flex;
     justify-content: center;
     align-items: center; }
