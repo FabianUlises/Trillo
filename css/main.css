@@ -117,9 +117,14 @@ Base-font: 1.6rem -> 16px
   border-bottom: 1px solid currentColor;
   cursor: pointer;
   transition: all 250ms; }
+  .btn-inline span {
+    margin-inline-start: 3px;
+    transition: margin-left 250ms; }
   .btn-inline:hover {
     color: var(--grey-dark-1);
     animation: pulsate 750ms infinite; }
+    .btn-inline:hover span {
+      margin-inline-start: 8px; }
   .btn-inline:focus {
     outline: none; }
 

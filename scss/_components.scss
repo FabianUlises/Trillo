@@ -26,11 +26,20 @@
     border: none;
     border-bottom: 1px solid currentColor;
     cursor: pointer;
-    transition: all 250ms;
+    transition: all 250ms;;
+
+    span {
+        margin-inline-start: 3px;
+        transition: margin-left 250ms;
+    } 
 
     &:hover {
         color: var(--grey-dark-1);
         animation: pulsate 750ms infinite;
+
+        span {
+            margin-inline-start: 8px;
+        }
     }
 
     &:focus {
