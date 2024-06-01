@@ -340,5 +340,13 @@
         &__count {
             margin-inline-end: auto;
         }
+
+    }
+
+    .review {
+        background-color: #fff;
+        box-shadow: var(--grey-light-1);
+        padding: 3rem;
+        margin-block-end: 3.5rem;
     }
 }
