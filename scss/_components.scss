@@ -419,3 +419,15 @@
         justify-content: center;
     }
 }
+// CTA
+.cta {
+    padding: 3.5rem 0;
+    text-align: center;
+
+    &__book-now {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-block-end: 2.5rem;
+    }
+}
