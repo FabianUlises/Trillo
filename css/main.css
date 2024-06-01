@@ -166,27 +166,27 @@ Base-font: 1.6rem -> 16px
     inline-size: 2rem;
     fill: var(--primary); }
 
-.user-nav {
+.nav {
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: stretch;
   cursor: pointer; }
-  .user-nav > * {
+  .nav > * {
     block-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 2rem; }
-  .user-nav > *:hover {
+  .nav > *:hover {
     background-color: var(--grey-light-2); }
-  .user-nav__icon {
+  .nav__icon {
     block-size: 2.25rem;
     inline-size: 2.25rem;
     fill: var(--grey-dark-2); }
-  .user-nav__icon-box {
+  .nav__icon-box {
     position: relative; }
-  .user-nav__notification {
+  .nav__notification {
     block-size: 1.75rem;
     inline-size: 1.75rem;
     background-color: var(--primary);
@@ -199,12 +199,12 @@ Base-font: 1.6rem -> 16px
     display: flex;
     justify-content: center;
     align-items: center; }
-  .user-nav__user-photo {
+  .nav__user-photo {
     block-size: 3.75rem;
     border-radius: 50%;
     background-color: var(--primary);
     margin-inline-end: 1rem; }
-  .user-nav__user {
+  .nav__user {
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -387,3 +387,9 @@ Base-font: 1.6rem -> 16px
   .detail .review__rating {
     color: var(--primary);
     font-size: 2.2rem; }
+
+.detail .user-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
