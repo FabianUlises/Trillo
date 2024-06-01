@@ -430,4 +430,15 @@
         text-transform: uppercase;
         margin-block-end: 2.5rem;
     }
+
+    .btn {
+        background-image: linear-gradient(to right, var(--primary-light), var(--primary-dark));
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        border-radius: 100px;
+        border: none;
+        padding: 2rem 7.5rem;
+    }
 }
