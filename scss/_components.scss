@@ -440,5 +440,35 @@
         border-radius: 100px;
         border: none;
         padding: 2rem 7.5rem;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+
+        
+        &__visible {
+            block-size: 100%;
+            inline-size: 100%;
+            display: inline-block;
+            transition: all 250ms;
+        }
+        
+        &__invisible {
+            block-size: 100%;
+            inline-size: 100%;
+            display: inline-block;
+            position: absolute;
+            top: -100%;
+            left: 0;
+            transition: all 250ms;
+        }
+        
+        &:hover .btn__invisible {
+            top: 0;
+        }
+
+        &:hover .btn__visible {
+            transform: translateY(185%);
+        }
     }
+
 }
