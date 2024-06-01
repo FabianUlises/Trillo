@@ -460,6 +460,9 @@
             top: -100%;
             left: 0;
             transition: all 250ms;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         &:hover .btn__invisible {

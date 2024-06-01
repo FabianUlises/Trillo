@@ -426,7 +426,10 @@ Base-font: 1.6rem -> 16px
       position: absolute;
       top: -100%;
       left: 0;
-      transition: all 250ms; }
+      transition: all 250ms;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
     .cta .btn:hover .btn__invisible {
       top: 0; }
     .cta .btn:hover .btn__visible {
