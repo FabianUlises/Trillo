@@ -430,6 +430,8 @@ Base-font: 1.6rem -> 16px
       display: flex;
       justify-content: center;
       align-items: center; }
+    .cta .btn:focus {
+      outline: none; }
     .cta .btn:hover .btn__invisible {
       top: 0; }
     .cta .btn:hover .btn__visible {

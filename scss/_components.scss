@@ -465,6 +465,10 @@
             align-items: center;
         }
         
+        &:focus {
+            outline: none;
+        }
+
         &:hover .btn__invisible {
             top: 0;
         }
