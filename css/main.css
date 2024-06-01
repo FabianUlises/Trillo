@@ -359,3 +359,9 @@ Base-font: 1.6rem -> 16px
     font-weight: 600;
     text-transform: uppercase;
     margin-block-end: .4rem; }
+  .detail .review__user-date {
+    font-size: 1rem;
+    color: var(--grey-dark-3); }
+  .detail .review__rating {
+    color: var(--primary);
+    font-size: 2.2rem; }
