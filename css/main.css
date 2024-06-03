@@ -94,6 +94,9 @@ Base-font: 1.6rem -> 16px
   border-block-end: 1px solid var(--grey-light-2);
   display: flex;
   padding: 4.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .detail {
+      padding: 3rem; } }
   .detail .description {
     background-color: #fff;
     font-size: 1.4rem;
@@ -101,6 +104,10 @@ Base-font: 1.6rem -> 16px
     flex: 0 0 60%;
     margin-inline-end: 4.5rem;
     padding: 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .detail .description {
+        padding: 2rem;
+        margin-inline-start: 3rem; } }
   .detail .user-reviews {
     flex: 1; }
 

@@ -43,6 +43,10 @@
     display: flex;
     padding: 4.5rem;
 
+    @include respond(medium) {
+        padding: 3rem;
+    }
+
     .description {
         background-color: #fff;
         font-size: 1.4rem;
@@ -50,6 +54,11 @@
         flex: 0 0 60%;
         margin-inline-end: 4.5rem;
         padding: 3rem;
+
+        @include respond(medium) {
+            padding: 2rem;
+            margin-inline-start: 3rem;
+        }
     }
 
     .user-reviews {
