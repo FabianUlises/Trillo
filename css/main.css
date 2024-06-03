@@ -225,11 +225,18 @@ Base-font: 1.6rem -> 16px
   font-size: 1.2rem;
   text-align: center;
   padding: 2.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .sidebar__copyright {
+      display: none; } }
 
 .side-nav {
   font-size: 1.4rem;
   list-style: none;
   margin-block-start: 3.5rem; }
+  @media only screen and (max-width: 56.25em) {
+    .side-nav {
+      display: flex;
+      margin: 0; } }
   .side-nav__item {
     position: relative; }
     .side-nav__item:not(:last-child) {
@@ -249,6 +256,9 @@ Base-font: 1.6rem -> 16px
       left: 0;
       transform: scaleY(0);
       transition: transform 250ms, width 300ms 250ms; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__item {
+        flex: 1; } }
   .side-nav__item--active::before {
     inline-size: 100%;
     transform: scaleY(1);

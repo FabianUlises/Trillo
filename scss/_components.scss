@@ -166,12 +166,21 @@
         font-size: 1.2rem;
         text-align: center;
         padding: 2.5rem;
+
+        @include respond(medium) {
+            display: none;
+        }
     }
 }
 .side-nav {
     font-size: 1.4rem;
     list-style: none;
     margin-block-start: 3.5rem;
+    
+    @include respond(medium) {
+        display: flex;
+        margin: 0;
+    }
 
     &__item {
         position: relative;
@@ -199,6 +208,10 @@
             left: 0;
             transform: scaleY(0);
             transition: transform 250ms, width 300ms 250ms;
+        }
+
+        @include respond(medium) {
+            flex: 1;
         }
     }
 
