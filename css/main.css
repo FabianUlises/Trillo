@@ -316,6 +316,11 @@ Base-font: 1.6rem -> 16px
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.5rem 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .overview__heading {
+        font-size: 2.05rem;
+        inline-size: 12rem;
+        padding-inline-end: 1.5rem; } }
   .overview__stars {
     margin-inline-end: auto; }
   .overview__rating {

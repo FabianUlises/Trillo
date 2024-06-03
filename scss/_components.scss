@@ -273,6 +273,11 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1.5rem 3rem;
+        @include respond(small) {
+            font-size: 2.05rem;
+            inline-size: 12rem;
+            padding-inline-end: 1.5rem;
+        }
     }
 
     &__stars {
