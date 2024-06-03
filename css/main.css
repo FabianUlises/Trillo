@@ -75,6 +75,9 @@ Base-font: 1.6rem -> 16px
 
 .content {
   display: flex; }
+  @media only screen and (max-width: 56.25em) {
+    .content {
+      flex-direction: column; } }
 
 .sidebar {
   background-color: var(--grey-dark-1);
