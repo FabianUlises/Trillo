@@ -272,6 +272,9 @@ Base-font: 1.6rem -> 16px
     align-items: center;
     position: relative;
     z-index: 10; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        justify-content: center; } }
   .side-nav__icon {
     inline-size: 1.75rem;
     block-size: 1.75rem;
