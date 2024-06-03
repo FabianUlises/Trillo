@@ -97,6 +97,9 @@ Base-font: 1.6rem -> 16px
   @media only screen and (max-width: 56.25em) {
     .detail {
       padding: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .detail {
+      flex-direction: column; } }
   .detail .description {
     background-color: #fff;
     font-size: 1.4rem;
@@ -108,6 +111,9 @@ Base-font: 1.6rem -> 16px
       .detail .description {
         padding: 2rem;
         margin-inline-start: 3rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .detail .description {
+        margin-block-end: 3rem; } }
   .detail .user-reviews {
     flex: 1; }
 
